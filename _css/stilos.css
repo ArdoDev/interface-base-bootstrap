@@ -1,0 +1,135 @@
+
+body{
+    background-image: url("/_imgs/background-img.png");
+    position: relative;
+    
+}
+
+header{
+    background-color:  rgb(255, 100, 89);
+    min-height: 64px;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 4px rgb(209, 0, 0);
+    align-items: center;
+
+}
+header, header > .container{
+    min-height: 64px;
+    align-items: center;
+  
+
+}
+
+h1.titulo-pizzaria{
+margin-left: 100px;
+}
+
+h1.historia{
+    padding-top: 20px;
+}
+
+p{
+    text-align: justify;
+}
+
+nav#menu-superior{
+    visibility: hidden;
+}
+
+
+section nav{
+    background-color: rgb(228, 228, 228);
+    padding: 2rem;
+    align-items: center;
+
+}
+
+ul#menu-lateral li{
+    margin: 20px;
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    border-radius: 25px;
+    text-align: center
+    
+}
+#menu-lateral li{
+
+    color:  rgb(255, 100, 89);
+
+}
+
+
+footer{
+    background-color:rgb(59, 59, 59);
+    color: aliceblue;
+    padding: 2rem;
+}
+
+@media (min-width: 576px) {
+    section, 
+    section > .row, 
+    section > .row > [class^=col-],
+    section > .row nav {
+        height: calc(100vh - 268px);
+    }
+    h1.titulo-pizzaria{
+        margin-left: 35px;
+}
+
+nav#menu-superior{
+    visibility: visible;
+}
+
+ul#menu-lateral li{
+
+        margin: 20px;
+        background-color:rgb(228, 228, 228);
+        padding: 5px;
+        border-radius: 25px;
+        text-align: center;
+        
+    }
+}
+
+
+/* chamado 'md' */
+@media (min-width: 768px) {
+    h1.titulo-pizzaria{
+        margin-left: 20px;
+        }
+    ul#menu-lateral li{
+        margin: 20px;
+        background-color: rgb(255, 255, 255);
+        padding: 5px;
+        border-radius: 25px;
+        text-align: center
+        
+    }  
+
+}
+
+/* chamado 'lg' */
+@media (min-width: 992px) { 
+
+}
+
+/* chamado 'xl' */
+@media (min-width: 1200px) {
+    h1.titulo-pizzaria{
+        margin-left: 80px;
+        }
+        ul#menu-lateral li{
+            margin: 20px;
+            background-color: rgb(255, 255, 255);
+            padding: 5px;
+            border-radius: 25px;
+            text-align: center
+            
+        }
+        
+}
+
+/* chamado 'xxl' */
+@media (min-width: 1400px) { 
+    
+}
